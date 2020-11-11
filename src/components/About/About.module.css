@@ -1,0 +1,26 @@
+.container {
+    max-width: 100vw;
+}
+.headerImage {
+    width: 100%;
+    margin-top: -2em;
+    margin-bottom: 2em;
+}
+
+.aboutProfile {
+    float: left;
+    margin: 0 1em 1em 0;
+    width: 50%;
+    height: 400px;
+}
+
+@media screen and (max-width:768px) {
+    .aboutProfile {
+        height: 270px;
+    }
+}
+@media screen and (max-width:375px) {
+    .aboutProfile {
+        height: 200px;
+    }
+}

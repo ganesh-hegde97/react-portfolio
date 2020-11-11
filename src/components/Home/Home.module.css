@@ -1,0 +1,15 @@
+
+.profile {
+    width: 38%;
+    height: 38%;
+}
+.name {
+    margin: 1em 0;
+}
+
+@media screen and (max-width:375px) {
+    .profile {
+        width: 45%;
+        height: 32%;
+    }
+}
